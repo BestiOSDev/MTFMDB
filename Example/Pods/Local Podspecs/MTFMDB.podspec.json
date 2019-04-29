@@ -1,6 +1,6 @@
 {
   "name": "MTFMDB",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "MTFMDB.Framework",
   "description": "FMDB 静态库framework 提高编译速度",
   "homepage": "https://github.com/BestiOSDev/MTFMDB",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/BestiOSDev/MTFMDB.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MTFMDB/Classes/**/*{h,m}",
-  "public_header_files": "MTFMDB/Classes/**/*.h",
+  "ios": {
+    "vendored_frameworks": "MTFMDB/Framework/MTFMDB.framework"
+  },
   "requires_arc": true,
   "libraries": "sqlite3"
 }

@@ -6,27 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5E2702C9CD26419588C585931B9731E5 /* MTFMDB */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 146C70DF0E54FCEAEF46839607AF0361 /* Build configuration list for PBXAggregateTarget "MTFMDB" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MTFMDB;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		04BB476DD6BC4CB2FF3A3812F5FDC9F0 /* MTFMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6559124E50764D3275FA3D815E793A2 /* MTFMDB-dummy.m */; };
-		20D062DF5DC11215F68ED613F16EEE1B /* MTFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		246B738667E88E55A6458C0EE63D81CD /* Pods-MTFMDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C790127DD38FB1CD2E110F49E0BCD /* Pods-MTFMDB_Example-dummy.m */; };
-		2DA8B6231BD8C7A3C912C5120BAFEEB2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */; };
-		338A3E7082F5E35249C6A285370D03DA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D293D09A767B7EF069BCCE43595D8AB8 /* FMDatabaseAdditions.m */; };
-		53E93EA557EAB76BA7FA64F6129F478F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DACBF127781BF1569733D9999820F3AD /* FMDatabasePool.m */; };
-		65F8A777AA1067B123792CFC452680EC /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D58575D3041B207D7832C4B438D2990 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67476B20731CB154E873D5A5A401D249 /* MTFMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12514B83834CDAFB599D23962A62BB06 /* MTFMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A8F2693BD6058216169A80F72E57634 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB7062102E12AA52CA22D40723DE4D0 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		246B738667E88E55A6458C0EE63D81CD /* Pods-MTFMDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDFF8EF36089FBCF8B1AB326C0EF318 /* Pods-MTFMDB_Example-dummy.m */; };
 		7A88905E99F747DC5EAA2CA15A94E0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		7B512C3D73BD4C010D1D412DC839279F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 767B7DA5D8EE18B0E0AF21ACA52A279A /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84453EDBB6B86CBDF2CD65FBE4CA4D91 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E07CF53B51C75C8C013D8583B1185A /* FMDatabase.m */; };
 		8751664395871B78F645FEF060979251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C82F8A8CBCAEA0DD66482ABA5B1EE057 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8873A02019E12718BB80156AFF2577FC /* FMDatabaseQueue.m */; };
-		CE57F88207C1BBDABAF7B4C3F0FD9686 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C22DD8391AD87F1A37F311739F4AEC /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE60276431F82935BAD0AEE4C0E8CBE7 /* Pods-MTFMDB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC26338663FF58B652B3BFF6E5E2DAF /* Pods-MTFMDB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D15979261949E56A0F53D7D10B5CA8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E2451159C21B22485ABBC5E03A084EFB /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 176F92CC08BD5B200881A50C2B73C72E /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E99E1B3D0A15EE4C3D6A8B55757F5A7D /* Pods-MTFMDB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1B1A8E2AE1626BCD166390EEA4756 /* Pods-MTFMDB_Tests-dummy.m */; };
-		F1827E900222E6525ABD5948F01A090F /* Pods-MTFMDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E15022804FC365D6FFC79650FEF00530 /* Pods-MTFMDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE60276431F82935BAD0AEE4C0E8CBE7 /* Pods-MTFMDB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F2E30F4951F708B944C7A80392A49E /* Pods-MTFMDB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E99E1B3D0A15EE4C3D6A8B55757F5A7D /* Pods-MTFMDB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E94BED83DA76B5F073326E3673D47 /* Pods-MTFMDB_Tests-dummy.m */; };
+		F1827E900222E6525ABD5948F01A090F /* Pods-MTFMDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE3E3C017EE873E80B0F12BB7866ABD /* Pods-MTFMDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,54 +39,37 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B9077DD2BA8DFF557AF714B72019196;
+			remoteGlobalIDString = 5E2702C9CD26419588C585931B9731E5;
 			remoteInfo = MTFMDB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = MTFMDB/Classes/FMResultSet.m; sourceTree = "<group>"; };
-		01A8BD5BEB8FA713BE883A98705C30C2 /* MTFMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTFMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0BB7062102E12AA52CA22D40723DE4D0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = MTFMDB/Classes/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		0C01287B6905077503BE78D762020FFA /* Pods-MTFMDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12514B83834CDAFB599D23962A62BB06 /* MTFMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTFMDB-umbrella.h"; sourceTree = "<group>"; };
-		14BD20390D8497CE141462C864A0870B /* Pods-MTFMDB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		176F92CC08BD5B200881A50C2B73C72E /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = MTFMDB/Classes/FMResultSet.h; sourceTree = "<group>"; };
-		1D58575D3041B207D7832C4B438D2990 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = MTFMDB/Classes/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		2797A48613291572730B3E33377DFC0A /* MTFMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTFMDB.xcconfig; sourceTree = "<group>"; };
-		3D24920D5A6CFB54F14060C074AA876B /* MTFMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTFMDB-prefix.pch"; sourceTree = "<group>"; };
-		47F6A1F003355DE49D965F95D99119E6 /* Pods_MTFMDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTFMDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53E07CF53B51C75C8C013D8583B1185A /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = MTFMDB/Classes/FMDatabase.m; sourceTree = "<group>"; };
-		571669FA26BA9E38C5E58B7022BDA99E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		64DEBA9B4A95FE6B88B12614CAB470C2 /* MTFMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTFMDB-Info.plist"; sourceTree = "<group>"; };
-		6C886D57317FBFDAC62062B7551F8AD1 /* Pods-MTFMDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTFMDB_Example-frameworks.sh"; sourceTree = "<group>"; };
-		767B7DA5D8EE18B0E0AF21ACA52A279A /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = MTFMDB/Classes/FMDatabasePool.h; sourceTree = "<group>"; };
-		87A5E46FFF1BA5675A5923E7AEA9E5FC /* Pods-MTFMDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8873A02019E12718BB80156AFF2577FC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = MTFMDB/Classes/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		8AE1B1A8E2AE1626BCD166390EEA4756 /* Pods-MTFMDB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Tests-dummy.m"; sourceTree = "<group>"; };
-		8B9C2F7C51E203C869F5F93564F5DA45 /* MTFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FFC546C9D2283715642F055C74D8CAE /* Pods-MTFMDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTFMDB_Example.modulemap"; sourceTree = "<group>"; };
-		976FB0F2414B0A1EF1CFBFBCF39A864A /* Pods-MTFMDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		99103762CF12632CE703A732AFE41139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9AC26338663FF58B652B3BFF6E5E2DAF /* Pods-MTFMDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5229903064A2EE4E5E4345A19E56187 /* Pods-MTFMDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B9B58F4DAA727CD5E0068D3643B6FDB6 /* Pods-MTFMDB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Tests-Info.plist"; sourceTree = "<group>"; };
-		BDE96C00896A81CDB4F54AB727EBDA3E /* Pods-MTFMDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C1A32B139EB0D60E32ED34F0776A6BCA /* Pods_MTFMDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTFMDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C22DD8391AD87F1A37F311739F4AEC /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = MTFMDB/Classes/FMDatabase.h; sourceTree = "<group>"; };
+		0FDFE79A97230D311D9D2C51765612EA /* Pods-MTFMDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1622C484B93B89FCABAF1A471C2315FF /* Pods-MTFMDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1667F95E643C4261F72AFF8D7C71CAE6 /* Pods-MTFMDB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D5D2D9F8A325F77D92310E1EBFED2F0 /* Pods-MTFMDB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Tests-Info.plist"; sourceTree = "<group>"; };
+		327860FEBBDF96625416B161622E55AD /* MTFMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTFMDB.xcconfig; sourceTree = "<group>"; };
+		3A25033F4EDA2DE1CEA7FCD7C7B714BA /* Pods-MTFMDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE3E3C017EE873E80B0F12BB7866ABD /* Pods-MTFMDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Example-umbrella.h"; sourceTree = "<group>"; };
+		48F882ADE1D37FE137318ABC017895A6 /* Pods_MTFMDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTFMDB_Example.framework; path = "Pods-MTFMDB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D34A274D0ACFE58CE059E37371E9B74 /* MTFMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTFMDB.framework; path = MTFMDB/Framework/MTFMDB.framework; sourceTree = "<group>"; };
+		566FFEE092BCC00B4A171B6A05FCE902 /* Pods-MTFMDB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTFMDB_Tests.modulemap"; sourceTree = "<group>"; };
+		645E94BED83DA76B5F073326E3673D47 /* Pods-MTFMDB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Tests-dummy.m"; sourceTree = "<group>"; };
+		705D48E095A108B04E01BE716398CA76 /* Pods-MTFMDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		737644EC9FE8DE99BD6EFBA4A57A2AE6 /* Pods-MTFMDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTFMDB_Example.modulemap"; sourceTree = "<group>"; };
+		816F09F146CE648BD3575C2604BEE267 /* Pods-MTFMDB_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Example-Info.plist"; sourceTree = "<group>"; };
+		82250FA163E9ECFD5334D2C37E11D9FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A36CC64D3D64DA75C57077277B0C9F24 /* MTFMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTFMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC93C93A6C77096FD77569390BA6E3F2 /* Pods-MTFMDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B0F2E30F4951F708B944C7A80392A49E /* Pods-MTFMDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B543D3E275CBA7C20F4E2055CF700EE0 /* Pods_MTFMDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTFMDB_Tests.framework; path = "Pods-MTFMDB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D293D09A767B7EF069BCCE43595D8AB8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = MTFMDB/Classes/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		D9322ED7DED3630683C70F275E7D6633 /* Pods-MTFMDB_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Example-Info.plist"; sourceTree = "<group>"; };
-		DACBF127781BF1569733D9999820F3AD /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = MTFMDB/Classes/FMDatabasePool.m; sourceTree = "<group>"; };
-		DB0C790127DD38FB1CD2E110F49E0BCD /* Pods-MTFMDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Example-dummy.m"; sourceTree = "<group>"; };
-		DBA04300DCAD29249C7FDEC9657323FB /* Pods-MTFMDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E15022804FC365D6FFC79650FEF00530 /* Pods-MTFMDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Example-umbrella.h"; sourceTree = "<group>"; };
-		E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFMDB.h; path = MTFMDB/Classes/MTFMDB.h; sourceTree = "<group>"; };
-		F6559124E50764D3275FA3D815E793A2 /* MTFMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTFMDB-dummy.m"; sourceTree = "<group>"; };
-		F754B2D1E63A3704CE4CABF755C7D944 /* Pods-MTFMDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBA0CFAFF38CFA844816483E13BCFEE0 /* MTFMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTFMDB.modulemap; sourceTree = "<group>"; };
-		FC7E74F1F1F50ABF3CC8DD55DD217B87 /* Pods-MTFMDB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTFMDB_Tests.modulemap"; sourceTree = "<group>"; };
+		D1C85B558D8DDF9CF5F1B5763AC432A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D2504D9A2562CBB33FE29F62ABB1EF9F /* Pods-MTFMDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDFF8EF36089FBCF8B1AB326C0EF318 /* Pods-MTFMDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Example-dummy.m"; sourceTree = "<group>"; };
+		E32A59346CF5655C1D3F05E20D3BE3D5 /* Pods-MTFMDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A88905E99F747DC5EAA2CA15A94E0D7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA92A9CF8ACEAEA1D6A2F3A1A2BB59C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D15979261949E56A0F53D7D10B5CA8E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,46 +92,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CB55E9974E64567B3A5370A92A14F2D /* Pods-MTFMDB_Tests */ = {
+		05290A1EB92F551B9A84333B8885CB78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC7E74F1F1F50ABF3CC8DD55DD217B87 /* Pods-MTFMDB_Tests.modulemap */,
-				0C01287B6905077503BE78D762020FFA /* Pods-MTFMDB_Tests-acknowledgements.markdown */,
-				14BD20390D8497CE141462C864A0870B /* Pods-MTFMDB_Tests-acknowledgements.plist */,
-				8AE1B1A8E2AE1626BCD166390EEA4756 /* Pods-MTFMDB_Tests-dummy.m */,
-				B9B58F4DAA727CD5E0068D3643B6FDB6 /* Pods-MTFMDB_Tests-Info.plist */,
-				9AC26338663FF58B652B3BFF6E5E2DAF /* Pods-MTFMDB_Tests-umbrella.h */,
-				87A5E46FFF1BA5675A5923E7AEA9E5FC /* Pods-MTFMDB_Tests.debug.xcconfig */,
-				DBA04300DCAD29249C7FDEC9657323FB /* Pods-MTFMDB_Tests.release.xcconfig */,
+				4D34A274D0ACFE58CE059E37371E9B74 /* MTFMDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08CA541309AB25078EA7C15913272C30 /* Pods-MTFMDB_Example */ = {
+			isa = PBXGroup;
+			children = (
+				737644EC9FE8DE99BD6EFBA4A57A2AE6 /* Pods-MTFMDB_Example.modulemap */,
+				E32A59346CF5655C1D3F05E20D3BE3D5 /* Pods-MTFMDB_Example-acknowledgements.markdown */,
+				1622C484B93B89FCABAF1A471C2315FF /* Pods-MTFMDB_Example-acknowledgements.plist */,
+				DEDFF8EF36089FBCF8B1AB326C0EF318 /* Pods-MTFMDB_Example-dummy.m */,
+				816F09F146CE648BD3575C2604BEE267 /* Pods-MTFMDB_Example-Info.plist */,
+				3EE3E3C017EE873E80B0F12BB7866ABD /* Pods-MTFMDB_Example-umbrella.h */,
+				3A25033F4EDA2DE1CEA7FCD7C7B714BA /* Pods-MTFMDB_Example.debug.xcconfig */,
+				705D48E095A108B04E01BE716398CA76 /* Pods-MTFMDB_Example.release.xcconfig */,
+			);
+			name = "Pods-MTFMDB_Example";
+			path = "Target Support Files/Pods-MTFMDB_Example";
+			sourceTree = "<group>";
+		};
+		4A5B379F8AFAF7DF9A61A19E30AA6BF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08CA541309AB25078EA7C15913272C30 /* Pods-MTFMDB_Example */,
+				6557E153EDC8086A6B24DDA0274EF784 /* Pods-MTFMDB_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50F1A91367C2839E91EAA9C61CF2E24A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82250FA163E9ECFD5334D2C37E11D9FB /* LICENSE */,
+				A36CC64D3D64DA75C57077277B0C9F24 /* MTFMDB.podspec */,
+				D1C85B558D8DDF9CF5F1B5763AC432A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63087A28C5617475F481EF568D7146E3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34738C97F076CDF579C0741123D7B5D /* MTFMDB */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6557E153EDC8086A6B24DDA0274EF784 /* Pods-MTFMDB_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				566FFEE092BCC00B4A171B6A05FCE902 /* Pods-MTFMDB_Tests.modulemap */,
+				0FDFE79A97230D311D9D2C51765612EA /* Pods-MTFMDB_Tests-acknowledgements.markdown */,
+				1667F95E643C4261F72AFF8D7C71CAE6 /* Pods-MTFMDB_Tests-acknowledgements.plist */,
+				645E94BED83DA76B5F073326E3673D47 /* Pods-MTFMDB_Tests-dummy.m */,
+				1D5D2D9F8A325F77D92310E1EBFED2F0 /* Pods-MTFMDB_Tests-Info.plist */,
+				B0F2E30F4951F708B944C7A80392A49E /* Pods-MTFMDB_Tests-umbrella.h */,
+				D2504D9A2562CBB33FE29F62ABB1EF9F /* Pods-MTFMDB_Tests.debug.xcconfig */,
+				AC93C93A6C77096FD77569390BA6E3F2 /* Pods-MTFMDB_Tests.release.xcconfig */,
 			);
 			name = "Pods-MTFMDB_Tests";
 			path = "Target Support Files/Pods-MTFMDB_Tests";
 			sourceTree = "<group>";
 		};
-		57D3F13FAE29C47E36EC090A54C45513 /* Pod */ = {
+		7AA2BECE22B9BC47CCF9B5762A0FFE18 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				571669FA26BA9E38C5E58B7022BDA99E /* LICENSE */,
-				01A8BD5BEB8FA713BE883A98705C30C2 /* MTFMDB.podspec */,
-				99103762CF12632CE703A732AFE41139 /* README.md */,
+				327860FEBBDF96625416B161622E55AD /* MTFMDB.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTFMDB";
 			sourceTree = "<group>";
 		};
-		6ABC88AFBBE20F1742AB5631D9A04CBE /* Development Pods */ = {
+		7D2EB1AC7CCAD79425C1C439A480C8A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA0CB2C82F6579FAF5DEE14A601B662D /* MTFMDB */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6BBB2F206585E2C475FDE2AF95737228 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B9C2F7C51E203C869F5F93564F5DA45 /* MTFMDB.framework */,
-				47F6A1F003355DE49D965F95D99119E6 /* Pods_MTFMDB_Example.framework */,
-				C1A32B139EB0D60E32ED34F0776A6BCA /* Pods_MTFMDB_Tests.framework */,
+				48F882ADE1D37FE137318ABC017895A6 /* Pods_MTFMDB_Example.framework */,
+				B543D3E275CBA7C20F4E2055CF700EE0 /* Pods_MTFMDB_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,20 +189,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6ABC88AFBBE20F1742AB5631D9A04CBE /* Development Pods */,
+				63087A28C5617475F481EF568D7146E3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6BBB2F206585E2C475FDE2AF95737228 /* Products */,
-				CF9D78E66ADDCA8E929039CDA0A45F1B /* Targets Support Files */,
+				7D2EB1AC7CCAD79425C1C439A480C8A8 /* Products */,
+				4A5B379F8AFAF7DF9A61A19E30AA6BF6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF9D78E66ADDCA8E929039CDA0A45F1B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5B280348211DF3C4F878AA2A9454284 /* Pods-MTFMDB_Example */,
-				3CB55E9974E64567B3A5370A92A14F2D /* Pods-MTFMDB_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -199,75 +204,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA0CB2C82F6579FAF5DEE14A601B662D /* MTFMDB */ = {
+		E34738C97F076CDF579C0741123D7B5D /* MTFMDB */ = {
 			isa = PBXGroup;
 			children = (
-				C3C22DD8391AD87F1A37F311739F4AEC /* FMDatabase.h */,
-				53E07CF53B51C75C8C013D8583B1185A /* FMDatabase.m */,
-				1D58575D3041B207D7832C4B438D2990 /* FMDatabaseAdditions.h */,
-				D293D09A767B7EF069BCCE43595D8AB8 /* FMDatabaseAdditions.m */,
-				767B7DA5D8EE18B0E0AF21ACA52A279A /* FMDatabasePool.h */,
-				DACBF127781BF1569733D9999820F3AD /* FMDatabasePool.m */,
-				0BB7062102E12AA52CA22D40723DE4D0 /* FMDatabaseQueue.h */,
-				8873A02019E12718BB80156AFF2577FC /* FMDatabaseQueue.m */,
-				E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */,
-				176F92CC08BD5B200881A50C2B73C72E /* FMResultSet.h */,
-				01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */,
-				57D3F13FAE29C47E36EC090A54C45513 /* Pod */,
-				EDB4D9DD360752E0243071A9E2BC1BAC /* Support Files */,
+				05290A1EB92F551B9A84333B8885CB78 /* Frameworks */,
+				50F1A91367C2839E91EAA9C61CF2E24A /* Pod */,
+				7AA2BECE22B9BC47CCF9B5762A0FFE18 /* Support Files */,
 			);
 			name = MTFMDB;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		EDB4D9DD360752E0243071A9E2BC1BAC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FBA0CFAFF38CFA844816483E13BCFEE0 /* MTFMDB.modulemap */,
-				2797A48613291572730B3E33377DFC0A /* MTFMDB.xcconfig */,
-				F6559124E50764D3275FA3D815E793A2 /* MTFMDB-dummy.m */,
-				64DEBA9B4A95FE6B88B12614CAB470C2 /* MTFMDB-Info.plist */,
-				3D24920D5A6CFB54F14060C074AA876B /* MTFMDB-prefix.pch */,
-				12514B83834CDAFB599D23962A62BB06 /* MTFMDB-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MTFMDB";
-			sourceTree = "<group>";
-		};
-		F5B280348211DF3C4F878AA2A9454284 /* Pods-MTFMDB_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8FFC546C9D2283715642F055C74D8CAE /* Pods-MTFMDB_Example.modulemap */,
-				F754B2D1E63A3704CE4CABF755C7D944 /* Pods-MTFMDB_Example-acknowledgements.markdown */,
-				B5229903064A2EE4E5E4345A19E56187 /* Pods-MTFMDB_Example-acknowledgements.plist */,
-				DB0C790127DD38FB1CD2E110F49E0BCD /* Pods-MTFMDB_Example-dummy.m */,
-				6C886D57317FBFDAC62062B7551F8AD1 /* Pods-MTFMDB_Example-frameworks.sh */,
-				D9322ED7DED3630683C70F275E7D6633 /* Pods-MTFMDB_Example-Info.plist */,
-				E15022804FC365D6FFC79650FEF00530 /* Pods-MTFMDB_Example-umbrella.h */,
-				976FB0F2414B0A1EF1CFBFBCF39A864A /* Pods-MTFMDB_Example.debug.xcconfig */,
-				BDE96C00896A81CDB4F54AB727EBDA3E /* Pods-MTFMDB_Example.release.xcconfig */,
-			);
-			name = "Pods-MTFMDB_Example";
-			path = "Target Support Files/Pods-MTFMDB_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CAA023A939D30883655F587024F95E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE57F88207C1BBDABAF7B4C3F0FD9686 /* FMDatabase.h in Headers */,
-				65F8A777AA1067B123792CFC452680EC /* FMDatabaseAdditions.h in Headers */,
-				7B512C3D73BD4C010D1D412DC839279F /* FMDatabasePool.h in Headers */,
-				6A8F2693BD6058216169A80F72E57634 /* FMDatabaseQueue.h in Headers */,
-				20D062DF5DC11215F68ED613F16EEE1B /* MTFMDB.h in Headers */,
-				E2451159C21B22485ABBC5E03A084EFB /* FMResultSet.h in Headers */,
-				67476B20731CB154E873D5A5A401D249 /* MTFMDB-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5EEAAEC83613E563FFD35A21F4350274 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,24 +237,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B9077DD2BA8DFF557AF714B72019196 /* MTFMDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49E27A6850D92EC3EF5060211A19E082 /* Build configuration list for PBXNativeTarget "MTFMDB" */;
-			buildPhases = (
-				1CAA023A939D30883655F587024F95E1 /* Headers */,
-				0630297CC3150DACAE4C5B1DF1178D19 /* Sources */,
-				EA92A9CF8ACEAEA1D6A2F3A1A2BB59C8 /* Frameworks */,
-				AD8AAA05D720DDA5554CD0C87C254957 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MTFMDB;
-			productName = MTFMDB;
-			productReference = 8B9C2F7C51E203C869F5F93564F5DA45 /* MTFMDB.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		741FE5EA1325CB03D09E8DB6C9494BD0 /* Pods-MTFMDB_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E072375BF5DE2BC7D899E722E4229A4 /* Build configuration list for PBXNativeTarget "Pods-MTFMDB_Tests" */;
@@ -321,7 +253,7 @@
 			);
 			name = "Pods-MTFMDB_Tests";
 			productName = "Pods-MTFMDB_Tests";
-			productReference = C1A32B139EB0D60E32ED34F0776A6BCA /* Pods_MTFMDB_Tests.framework */;
+			productReference = B543D3E275CBA7C20F4E2055CF700EE0 /* Pods_MTFMDB_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A75587E5DECF3173CC91FA24DD04273E /* Pods-MTFMDB_Example */ = {
@@ -340,7 +272,7 @@
 			);
 			name = "Pods-MTFMDB_Example";
 			productName = "Pods-MTFMDB_Example";
-			productReference = 47F6A1F003355DE49D965F95D99119E6 /* Pods_MTFMDB_Example.framework */;
+			productReference = 48F882ADE1D37FE137318ABC017895A6 /* Pods_MTFMDB_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -360,11 +292,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6BBB2F206585E2C475FDE2AF95737228 /* Products */;
+			productRefGroup = 7D2EB1AC7CCAD79425C1C439A480C8A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B9077DD2BA8DFF557AF714B72019196 /* MTFMDB */,
+				5E2702C9CD26419588C585931B9731E5 /* MTFMDB */,
 				A75587E5DECF3173CC91FA24DD04273E /* Pods-MTFMDB_Example */,
 				741FE5EA1325CB03D09E8DB6C9494BD0 /* Pods-MTFMDB_Tests */,
 			);
@@ -386,29 +318,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD8AAA05D720DDA5554CD0C87C254957 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0630297CC3150DACAE4C5B1DF1178D19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84453EDBB6B86CBDF2CD65FBE4CA4D91 /* FMDatabase.m in Sources */,
-				338A3E7082F5E35249C6A285370D03DA /* FMDatabaseAdditions.m in Sources */,
-				53E93EA557EAB76BA7FA64F6129F478F /* FMDatabasePool.m in Sources */,
-				C82F8A8CBCAEA0DD66482ABA5B1EE057 /* FMDatabaseQueue.m in Sources */,
-				2DA8B6231BD8C7A3C912C5120BAFEEB2 /* FMResultSet.m in Sources */,
-				04BB476DD6BC4CB2FF3A3812F5FDC9F0 /* MTFMDB-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C567777F709F4EFA25D3FD88B4B7AF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,7 +349,7 @@
 		6DD7401968B71E16823D01E5E02ACEE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTFMDB;
-			target = 3B9077DD2BA8DFF557AF714B72019196 /* MTFMDB */;
+			target = 5E2702C9CD26419588C585931B9731E5 /* MTFMDB */;
 			targetProxy = A63508EE9991A6D7B81E4D2C9F3449EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,15 +408,30 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		18655B2C2A20428CDEA77B5736871F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327860FEBBDF96625416B161622E55AD /* MTFMDB.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		1F5875D35F07A6477857AA07067425F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDE96C00896A81CDB4F54AB727EBDA3E /* Pods-MTFMDB_Example.release.xcconfig */;
+			baseConfigurationReference = 705D48E095A108B04E01BE716398CA76 /* Pods-MTFMDB_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -538,7 +465,7 @@
 		};
 		311DD8B6A949F7D236D182E8D1B8B5F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87A5E46FFF1BA5675A5923E7AEA9E5FC /* Pods-MTFMDB_Tests.debug.xcconfig */;
+			baseConfigurationReference = D2504D9A2562CBB33FE29F62ABB1EF9F /* Pods-MTFMDB_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -633,40 +560,22 @@
 			};
 			name = Debug;
 		};
-		7D4C974231068C388D8D5426687CD821 /* Release */ = {
+		49F7D39207ED946047AD0EE1A022D00E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2797A48613291572730B3E33377DFC0A /* MTFMDB.xcconfig */;
+			baseConfigurationReference = 327860FEBBDF96625416B161622E55AD /* MTFMDB.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MTFMDB/MTFMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTFMDB/MTFMDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTFMDB/MTFMDB.modulemap";
-				PRODUCT_MODULE_NAME = MTFMDB;
-				PRODUCT_NAME = MTFMDB;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE88AD382E8EB188FE03C588DC7AC35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA04300DCAD29249C7FDEC9657323FB /* Pods-MTFMDB_Tests.release.xcconfig */;
+			baseConfigurationReference = AC93C93A6C77096FD77569390BA6E3F2 /* Pods-MTFMDB_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -698,39 +607,9 @@
 			};
 			name = Release;
 		};
-		A42AA757602DC35D9F242CEEC4A8556F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2797A48613291572730B3E33377DFC0A /* MTFMDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MTFMDB/MTFMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTFMDB/MTFMDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTFMDB/MTFMDB.modulemap";
-				PRODUCT_MODULE_NAME = MTFMDB;
-				PRODUCT_NAME = MTFMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F9B8D7643A27D3E4E8F848C197407BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976FB0F2414B0A1EF1CFBFBCF39A864A /* Pods-MTFMDB_Example.debug.xcconfig */;
+			baseConfigurationReference = 3A25033F4EDA2DE1CEA7FCD7C7B714BA /* Pods-MTFMDB_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -764,6 +643,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		146C70DF0E54FCEAEF46839607AF0361 /* Build configuration list for PBXAggregateTarget "MTFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F7D39207ED946047AD0EE1A022D00E /* Debug */,
+				18655B2C2A20428CDEA77B5736871F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2E072375BF5DE2BC7D899E722E4229A4 /* Build configuration list for PBXNativeTarget "Pods-MTFMDB_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -778,15 +666,6 @@
 			buildConfigurations = (
 				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
 				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49E27A6850D92EC3EF5060211A19E082 /* Build configuration list for PBXNativeTarget "MTFMDB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A42AA757602DC35D9F242CEEC4A8556F /* Debug */,
-				7D4C974231068C388D8D5426687CD821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
