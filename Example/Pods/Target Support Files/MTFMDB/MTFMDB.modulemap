@@ -1,0 +1,6 @@
+framework module MTFMDB {
+  umbrella header "MTFMDB-umbrella.h"
+
+  export *
+  module * { export * }
+}
