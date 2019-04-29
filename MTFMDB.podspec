@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTFMDB'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MTFMDB.Framework'
 
 s.description      = <<-DESC
@@ -26,7 +26,7 @@ if ENV['IS_SOURCE']
     s.source_files = 'MTFMDB/Classes/**/*{h,m}'
     s.public_header_files = 'MTFMDB/Classes/**/*.h'
 else
-s.ios.vendored_frameworks = 'MTMJRefresh/Framework/MTMJRefresh.framework'
+s.ios.vendored_frameworks = 'MTFMDB/Framework/MTFMDB.framework'
 end
 s.requires_arc = true
 

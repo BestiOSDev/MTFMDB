@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04BB476DD6BC4CB2FF3A3812F5FDC9F0 /* MTFMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6559124E50764D3275FA3D815E793A2 /* MTFMDB-dummy.m */; };
-		20D062DF5DC11215F68ED613F16EEE1B /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BA50431DDD3FC9D237C38896D51496 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D062DF5DC11215F68ED613F16EEE1B /* MTFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246B738667E88E55A6458C0EE63D81CD /* Pods-MTFMDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C790127DD38FB1CD2E110F49E0BCD /* Pods-MTFMDB_Example-dummy.m */; };
 		2DA8B6231BD8C7A3C912C5120BAFEEB2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */; };
 		338A3E7082F5E35249C6A285370D03DA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D293D09A767B7EF069BCCE43595D8AB8 /* FMDatabaseAdditions.m */; };
@@ -48,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = MTFMDB/Classes/FMResultSet.m; sourceTree = "<group>"; };
-		01A8BD5BEB8FA713BE883A98705C30C2 /* MTFMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTFMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		01A8BD5BEB8FA713BE883A98705C30C2 /* MTFMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTFMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BB7062102E12AA52CA22D40723DE4D0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = MTFMDB/Classes/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		0C01287B6905077503BE78D762020FFA /* Pods-MTFMDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12514B83834CDAFB599D23962A62BB06 /* MTFMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTFMDB-umbrella.h"; sourceTree = "<group>"; };
@@ -57,25 +57,25 @@
 		1D58575D3041B207D7832C4B438D2990 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = MTFMDB/Classes/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		2797A48613291572730B3E33377DFC0A /* MTFMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTFMDB.xcconfig; sourceTree = "<group>"; };
 		3D24920D5A6CFB54F14060C074AA876B /* MTFMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTFMDB-prefix.pch"; sourceTree = "<group>"; };
-		47F6A1F003355DE49D965F95D99119E6 /* Pods_MTFMDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTFMDB_Example.framework; path = "Pods-MTFMDB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F6A1F003355DE49D965F95D99119E6 /* Pods_MTFMDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTFMDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E07CF53B51C75C8C013D8583B1185A /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = MTFMDB/Classes/FMDatabase.m; sourceTree = "<group>"; };
-		571669FA26BA9E38C5E58B7022BDA99E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		571669FA26BA9E38C5E58B7022BDA99E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		64DEBA9B4A95FE6B88B12614CAB470C2 /* MTFMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTFMDB-Info.plist"; sourceTree = "<group>"; };
 		6C886D57317FBFDAC62062B7551F8AD1 /* Pods-MTFMDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTFMDB_Example-frameworks.sh"; sourceTree = "<group>"; };
 		767B7DA5D8EE18B0E0AF21ACA52A279A /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = MTFMDB/Classes/FMDatabasePool.h; sourceTree = "<group>"; };
 		87A5E46FFF1BA5675A5923E7AEA9E5FC /* Pods-MTFMDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8873A02019E12718BB80156AFF2577FC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = MTFMDB/Classes/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		8AE1B1A8E2AE1626BCD166390EEA4756 /* Pods-MTFMDB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Tests-dummy.m"; sourceTree = "<group>"; };
-		8B9C2F7C51E203C869F5F93564F5DA45 /* MTFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTFMDB.framework; path = MTFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9C2F7C51E203C869F5F93564F5DA45 /* MTFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFC546C9D2283715642F055C74D8CAE /* Pods-MTFMDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTFMDB_Example.modulemap"; sourceTree = "<group>"; };
 		976FB0F2414B0A1EF1CFBFBCF39A864A /* Pods-MTFMDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		99103762CF12632CE703A732AFE41139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		99103762CF12632CE703A732AFE41139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9AC26338663FF58B652B3BFF6E5E2DAF /* Pods-MTFMDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5229903064A2EE4E5E4345A19E56187 /* Pods-MTFMDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9B58F4DAA727CD5E0068D3643B6FDB6 /* Pods-MTFMDB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTFMDB_Tests-Info.plist"; sourceTree = "<group>"; };
 		BDE96C00896A81CDB4F54AB727EBDA3E /* Pods-MTFMDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C1A32B139EB0D60E32ED34F0776A6BCA /* Pods_MTFMDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTFMDB_Tests.framework; path = "Pods-MTFMDB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A32B139EB0D60E32ED34F0776A6BCA /* Pods_MTFMDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTFMDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C22DD8391AD87F1A37F311739F4AEC /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = MTFMDB/Classes/FMDatabase.h; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D293D09A767B7EF069BCCE43595D8AB8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = MTFMDB/Classes/FMDatabaseAdditions.m; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		DB0C790127DD38FB1CD2E110F49E0BCD /* Pods-MTFMDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFMDB_Example-dummy.m"; sourceTree = "<group>"; };
 		DBA04300DCAD29249C7FDEC9657323FB /* Pods-MTFMDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFMDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E15022804FC365D6FFC79650FEF00530 /* Pods-MTFMDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFMDB_Example-umbrella.h"; sourceTree = "<group>"; };
-		E5BA50431DDD3FC9D237C38896D51496 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = MTFMDB/Classes/FMDB.h; sourceTree = "<group>"; };
+		E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFMDB.h; path = MTFMDB/Classes/MTFMDB.h; sourceTree = "<group>"; };
 		F6559124E50764D3275FA3D815E793A2 /* MTFMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTFMDB-dummy.m"; sourceTree = "<group>"; };
 		F754B2D1E63A3704CE4CABF755C7D944 /* Pods-MTFMDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFMDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBA0CFAFF38CFA844816483E13BCFEE0 /* MTFMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTFMDB.modulemap; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 				DACBF127781BF1569733D9999820F3AD /* FMDatabasePool.m */,
 				0BB7062102E12AA52CA22D40723DE4D0 /* FMDatabaseQueue.h */,
 				8873A02019E12718BB80156AFF2577FC /* FMDatabaseQueue.m */,
-				E5BA50431DDD3FC9D237C38896D51496 /* FMDB.h */,
+				E5BA50431DDD3FC9D237C38896D51496 /* MTFMDB.h */,
 				176F92CC08BD5B200881A50C2B73C72E /* FMResultSet.h */,
 				01A437E24B660F939F6597FE90273B92 /* FMResultSet.m */,
 				57D3F13FAE29C47E36EC090A54C45513 /* Pod */,
@@ -262,7 +262,7 @@
 				65F8A777AA1067B123792CFC452680EC /* FMDatabaseAdditions.h in Headers */,
 				7B512C3D73BD4C010D1D412DC839279F /* FMDatabasePool.h in Headers */,
 				6A8F2693BD6058216169A80F72E57634 /* FMDatabaseQueue.h in Headers */,
-				20D062DF5DC11215F68ED613F16EEE1B /* FMDB.h in Headers */,
+				20D062DF5DC11215F68ED613F16EEE1B /* MTFMDB.h in Headers */,
 				E2451159C21B22485ABBC5E03A084EFB /* FMResultSet.h in Headers */,
 				67476B20731CB154E873D5A5A401D249 /* MTFMDB-umbrella.h in Headers */,
 			);
@@ -496,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
